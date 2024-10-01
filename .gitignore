@@ -1,0 +1,18 @@
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+# Entornos virtuales
+.venv/
+env/
+venv/
+# Archivos de log
+*.log
+# Archivos temporales
+*.tmp
+*.temp
+# Archivos de construcción
+build/
+dist/
+# Chromadb
+chroma_db/
