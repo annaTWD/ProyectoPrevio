@@ -1,0 +1,101 @@
+Nombre,Email,Fecha de reserva,Destino,Servicio,Estado,Precio
+Amy Haynes,pamelarodriguez@example.com,2024-05-23,Tokio,Tour,Cancelada,208.77
+Amy Lawrence,susan95@example.org,2024-06-12,París,Tour,Pendiente,410.92
+Matthew Perez,gchambers@example.com,2024-04-05,París,Crucero,Confirmada,880.58
+Jennifer Owen,brittanythomas@example.com,2024-05-26,Roma,Hotel,Confirmada,548.18
+Carrie Williams,cjacobson@example.net,2024-08-06,París,Vuelo,Confirmada,476.57
+Scott Anderson,renee82@example.net,2024-08-04,Nueva York,Tour,Confirmada,822.25
+Kara Miller,trujilloshane@example.net,2024-02-28,Roma,Hotel,Pendiente,466.58
+Jesus Lee,youngashley@example.org,2024-06-19,Nueva York,Alquiler de coche,Cancelada,322.74
+Johnny Cabrera,lochoa@example.org,2024-01-07,Roma,Tour,Confirmada,816.2
+Ann Burke,smithjessica@example.com,2024-06-05,Tokio,Vuelo,Confirmada,264.27
+Kathleen Cantrell,antonio44@example.org,2024-07-17,Nueva York,Alquiler de coche,Confirmada,174.64
+Danielle Montgomery,jose66@example.org,2024-09-28,Roma,Hotel,Confirmada,638.32
+Dalton Rose,christopherboyle@example.com,2024-09-04,Tokio,Hotel,Cancelada,285.07
+Robert Valdez,jcarter@example.com,2024-02-12,París,Hotel,Confirmada,886.09
+Antonio Wilson,dparker@example.net,2024-05-02,París,Tour,Cancelada,577.54
+Kimberly Skinner,ykemp@example.com,2024-10-02,Tokio,Tour,Confirmada,232.95
+Angela Thomas,caroline34@example.org,2024-07-26,Tokio,Crucero,Confirmada,956.99
+Billy Rich,dspears@example.org,2024-08-27,Nueva York,Tour,Confirmada,299.3
+Ronald Carroll,mmartinez@example.org,2024-06-09,París,Hotel,Pendiente,768.01
+Stephanie Davis,megankeller@example.com,2024-07-29,Tokio,Vuelo,Confirmada,254.84
+Brian Santos,jennifer68@example.com,2024-02-01,Nueva York,Vuelo,Pendiente,101.15
+Michael Sims,nancydavis@example.com,2024-01-15,Nueva York,Tour,Confirmada,259.48
+Sean Edwards,georgehernandez@example.net,2024-01-06,Barcelona,Hotel,Cancelada,232.21
+Andre White,samuelpope@example.org,2024-09-01,Roma,Tour,Confirmada,846.26
+Kathleen Howard,lesliemercer@example.net,2024-09-05,Roma,Crucero,Cancelada,482.05
+Ms. Stephanie Nelson MD,munozalyssa@example.com,2024-07-10,Tokio,Vuelo,Cancelada,413.94
+Kyle Scott,villarandy@example.org,2024-04-16,Roma,Hotel,Cancelada,345.54
+Tamara Norris,cbrady@example.org,2024-07-09,Nueva York,Vuelo,Confirmada,361.08
+David Rodriguez,xjones@example.com,2024-09-18,Tokio,Crucero,Confirmada,106.4
+Tyler Meadows,lmathis@example.com,2024-06-01,Tokio,Vuelo,Pendiente,404.64
+Jason Chavez,stephanie97@example.org,2024-06-03,Roma,Hotel,Cancelada,576.18
+Angel Carr,lauralloyd@example.net,2024-02-15,Barcelona,Crucero,Cancelada,834.44
+Dan Hughes,loretta39@example.org,2024-08-02,Tokio,Alquiler de coche,Cancelada,810.66
+Jacqueline Mckinney,stevensandrew@example.com,2024-01-10,París,Vuelo,Confirmada,789.79
+Jack Cowan,cporter@example.org,2024-08-01,París,Alquiler de coche,Pendiente,803.28
+Lori Hernandez,meghanlandry@example.org,2024-08-22,Barcelona,Crucero,Pendiente,880.88
+Daniel Thompson,piercerobert@example.net,2024-09-02,Roma,Alquiler de coche,Confirmada,537.68
+Melissa Hall,dave81@example.org,2024-04-02,Nueva York,Hotel,Cancelada,410.33
+John Dunn,kayla58@example.org,2024-07-14,Tokio,Crucero,Cancelada,435.3
+Margaret Robbins,sarahnielsen@example.org,2024-04-19,Nueva York,Crucero,Cancelada,889.65
+Andrew Wilson,kwade@example.org,2024-05-21,Nueva York,Tour,Cancelada,794.34
+Amanda Green,james10@example.org,2024-01-17,Roma,Crucero,Pendiente,239.26
+Omar Rivera,wphillips@example.org,2024-03-10,Tokio,Crucero,Cancelada,420.65
+Julie Hill,ivasquez@example.com,2024-05-30,Roma,Alquiler de coche,Cancelada,678.7
+Marcus Cooper,gregorybennett@example.com,2024-10-02,Tokio,Crucero,Confirmada,381.98
+Ashley Mora,markoconnell@example.net,2024-09-07,Tokio,Tour,Pendiente,539.47
+Jennifer Melendez,potterrobert@example.org,2024-03-05,Roma,Hotel,Pendiente,798.59
+Kimberly Shepherd,paul52@example.net,2024-03-29,Barcelona,Crucero,Pendiente,128.8
+Melissa Barnett,sjones@example.net,2024-06-29,Roma,Tour,Cancelada,138.01
+Natalie Hutchinson,romerosandra@example.com,2024-05-12,Tokio,Vuelo,Pendiente,807.76
+Patrick Hubbard,ihunter@example.org,2024-04-23,Barcelona,Crucero,Cancelada,546.19
+Jennifer Farrell,russellamanda@example.org,2024-04-21,Barcelona,Alquiler de coche,Confirmada,392.58
+Raymond Rich,rodriguezanthony@example.org,2024-03-25,Barcelona,Crucero,Confirmada,485.57
+Mary Mullen,cmorales@example.org,2024-07-06,París,Tour,Pendiente,944.44
+Adam Turner,hartchristopher@example.com,2024-07-01,Roma,Alquiler de coche,Cancelada,676.88
+Kari Dixon,dominiqueowens@example.com,2024-05-23,Barcelona,Crucero,Pendiente,956.03
+Troy Hanson,emilyosborn@example.com,2024-09-06,Nueva York,Tour,Pendiente,714.09
+Victor Haas,wwhite@example.org,2024-10-02,París,Tour,Pendiente,874.11
+Anne Holt,jeffrey31@example.net,2024-09-04,Barcelona,Crucero,Confirmada,539.56
+Brent Smith,walkerjeffrey@example.net,2024-01-15,Tokio,Crucero,Confirmada,808.44
+Keith Ball,wsmith@example.org,2024-03-12,Barcelona,Vuelo,Pendiente,676.67
+Kylie Huerta,christylarson@example.net,2024-02-09,Roma,Crucero,Confirmada,728.13
+Alice Moore,thomas89@example.com,2024-07-10,París,Vuelo,Pendiente,843.62
+Jennifer Mendoza,cmartin@example.com,2024-01-05,Tokio,Crucero,Confirmada,496.71
+Darlene Riley,hperez@example.net,2024-07-08,Roma,Hotel,Confirmada,251.01
+David Dominguez,thompsonshannon@example.com,2024-04-10,Barcelona,Hotel,Pendiente,756.29
+Summer Daugherty,ecrawford@example.net,2024-08-30,Roma,Vuelo,Confirmada,340.28
+Gabriel Webster,zbutler@example.net,2024-08-31,Barcelona,Vuelo,Confirmada,564.83
+Mrs. Alejandra Simmons,elizabeth23@example.net,2024-02-29,Roma,Alquiler de coche,Pendiente,489.75
+Virginia Johnson,masseydaniel@example.net,2024-08-16,Tokio,Alquiler de coche,Confirmada,624.44
+Michael Anderson,tyler94@example.com,2024-09-17,Barcelona,Vuelo,Cancelada,635.96
+David Daniels,katrinafuller@example.org,2024-08-17,París,Alquiler de coche,Pendiente,728.15
+Karen Walker,blairdonna@example.net,2024-01-31,Barcelona,Vuelo,Pendiente,184.73
+Jennifer Riley,ccarpenter@example.org,2024-08-21,Tokio,Alquiler de coche,Pendiente,863.5
+Jimmy Reed,branchwesley@example.org,2024-02-12,Roma,Hotel,Confirmada,888.52
+Jason Santana,mclaughlinkathryn@example.org,2024-03-14,Tokio,Tour,Confirmada,475.75
+David Salinas,ajuarez@example.com,2024-02-15,Nueva York,Crucero,Cancelada,659.71
+Michael Robinson,charlotte18@example.net,2024-05-08,Barcelona,Tour,Pendiente,433.99
+Mr. Michael Hall,matthew73@example.net,2024-07-01,Barcelona,Tour,Pendiente,376.0
+Stephen Phillips,wsmith@example.com,2024-07-27,Roma,Alquiler de coche,Confirmada,606.55
+Kelly Mills,adampruitt@example.org,2024-03-31,Tokio,Hotel,Cancelada,871.82
+Timothy Santos,farleycarly@example.net,2024-07-07,Barcelona,Crucero,Pendiente,639.69
+Kim Stevens,pamelahale@example.org,2024-03-31,Tokio,Hotel,Cancelada,352.75
+Luis Pace,johnwilson@example.org,2024-02-19,Tokio,Alquiler de coche,Confirmada,239.7
+Lisa Burgess,victorianelson@example.net,2024-06-04,Tokio,Crucero,Confirmada,735.76
+Kenneth Reyes,owalker@example.net,2024-04-21,Roma,Hotel,Confirmada,624.24
+Tony Delgado,joseph54@example.net,2024-04-02,Roma,Hotel,Cancelada,687.56
+Angela Conway,john54@example.net,2024-03-15,Roma,Hotel,Confirmada,550.53
+Jordan Richards,cummingsstacy@example.org,2024-03-18,Tokio,Tour,Confirmada,803.35
+Stephanie Pierce,milleralexander@example.net,2024-03-25,París,Hotel,Confirmada,606.42
+Timothy Jones,melissascott@example.org,2024-08-31,Nueva York,Tour,Pendiente,171.5
+Jimmy Ortega,ashley86@example.org,2024-05-11,París,Tour,Cancelada,429.64
+Daniel Russell,tarayoung@example.com,2024-05-10,Nueva York,Crucero,Pendiente,305.76
+Amanda Rodriguez,melissaharris@example.com,2024-09-21,Roma,Alquiler de coche,Cancelada,254.19
+Stacey Mckenzie,david42@example.com,2024-08-29,Nueva York,Crucero,Cancelada,405.38
+Ronald Brown,pittsbrandi@example.org,2024-08-10,Roma,Alquiler de coche,Confirmada,693.92
+John Rivas,felicia23@example.org,2024-09-14,Roma,Hotel,Cancelada,588.79
+Tara Patel,apoole@example.net,2024-03-12,Tokio,Crucero,Confirmada,783.71
+Alexandra Vasquez,josephbrowning@example.net,2024-03-06,Nueva York,Crucero,Pendiente,667.07
+Jackie Cox,paulreese@example.com,2024-02-16,París,Hotel,Pendiente,486.58
