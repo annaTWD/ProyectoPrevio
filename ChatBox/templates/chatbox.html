@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbox de Turismo</title>
+    <style>
+        /* Fondo de la página con la imagen turismo.jpeg desde /static */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('/static/turismo.jpeg');
+            /* Imagen de fondo externa */
+            background-size: cover;
+            /* Asegura que la imagen cubra toda la pantalla */
+            background-position: center;
+            /* Centra la imagen */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+        /* Caja de chat */
+        .chat-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            /* Fondo blanco semitransparente */
+            border-radius: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            max-width: 90%;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            /* Efecto de desenfoque detrás del chatbox */
+        }
+
+        /* Título */
+        h1 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        /* Área de mensajes */
+        .chat-box {
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #f8f8f8;
+            height: 300px;
+            overflow-y: scroll;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Estilos de los mensajes */
+        .message {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 10px;
+            max-width: 80%;
+        }
+
+        .user {
+            background-color: #007bff;
+            color: white;
+            align-self: flex-end;
+            text-align: right;
+            margin-left: auto;
+        }
+
+        .bot {
+            background-color: #e0e0e0;
+            color: #333;
+            align-self: flex-start;
+        }
+
+        /* Input y botón */
+        .input-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        input[type="text"] {
+            width: 75%;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Scroll automático */
+        .chat-box::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .chat-box::-webkit-scrollbar-thumb {
+            background-color: #007bff;
+            border-radius: 10px;
+        }
+
+        /* Loader (pensando) */
+        #loader {
+            display: none;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="chat-container">
+        <h1>Chat de Turismo</h1>
+        <div id="messages" class="chat-box"></div>
+        <div id="loader">⏳ Pensando...</div>
+        <div class="input-container">
+            <input type="text" id="user_input" placeholder="Escribe tu mensaje...">
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+
+    <script>
+        function sendMessage() {
+            const userInput = document.getElementById('user_input');
+            const userMessage = userInput.value;
+            if (userMessage.trim() === '') return;
+
+            const messagesDiv = document.getElementById('messages');
+            messagesDiv.innerHTML += `<div class="message user">${userMessage}</div>`;
+            userInput.value = '';
+
+            document.getElementById('loader').style.display = 'block';  // Mostrar el loader
+
+            fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: `message=${userMessage}`
+            })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('loader').style.display = 'none';  // Ocultar el loader
+                    messagesDiv.innerHTML += `<div class="message bot">${data.response}</div>`;
+                    messagesDiv.scrollTop = messagesDiv.scrollHeight;  // Hacer scroll hacia abajo automáticamente
+                });
+        }
+    </script>
+
+</body>
+
+</html>
